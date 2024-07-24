@@ -1,0 +1,24 @@
+Column Name,Column Units,Description,Column Group,Type
+Operator,None (string),Company that operates the well,Completion,Feature
+CompletionDate,None (date),Date in which the well was completed,Completion,Feature
+Reservoir,None (string),Geologic formation that the well is targeting,Geology,Feature
+LateralLength_FT,Feet,Completed length of the horizontal well,Completion,Feature
+ProppantIntensity_LBSPerFT,Pounds / Feet,Amount of proppant (frac sand) per lateral foot used to complete the well,Completion,Feature
+FluidIntensity_BBLPerFT,Barrels / Feet,Amount of fluid per lateral foot used to complete the well,Completion,Feature
+HzDistanceToNearestOffsetAtDrill,Feet,Horizontal distance to the nearest offset well - measured at the time the well was completed,Well spacing,Feature
+HzDistanceToNearestOffsetCurrent,Feet,Horizontal distance to the nearest offset well - measured at current time,Well spacing,Feature
+VtDistanceToNearestOffsetCurrent,Feet,Vertical distance to the nearest offset well - measured at the time the well was completed,Well spacing,Feature
+VtDistanceToNearestOffsetAtDrill,Feet,Vertical distance to the nearest offset well - measured at current time,Well spacing,Feature
+WellDepth,Feet,Depth of the horizontal well,Geology,Feature
+ReservoirThickness,Feet,Thickness of the targeted reservoir,Geology,Feature
+OilInPlace,Million barrels of oil / square mile,Amount of oil in place for the target reservoir,Geology,Feature
+Porosity,Percent,Porosity of the target reservoir,Geology,Feature
+ReservoirPressure,PSI,Pressure of the target reservoir,Geology,Feature
+WaterSaturation,Percent,% saturation of water in the target reservoir fluid,Geology,Feature
+StructureDerivative,Percent,% change in depth of the target formation - proxy for geologic faults,Geology,Feature
+TotalOrganicCarbon,Percent,% of total organic carbon of the target formation,Geology,Feature
+ClayVolume,Percent,% clay of the target reservoir,Geology,Feature
+CarbonateVolume,Percent,% carbonate of the target reservoir,Geology,Feature
+Maturity,Percent,Maturity of the target reservoir,Geology,Feature
+TotalWellCost_USDMM,Millions of dollars,Total cost of the horizontal well,Completion,Feature
+CumOil12Month,Barrels of oil,Amount of oil produced in the first 12 months of production,Production,Response (column to predict)
