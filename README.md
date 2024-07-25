@@ -79,6 +79,3 @@ The XGBoost model achieved the best performance, with a testing R-squared of 0.5
 - Christoph Wippel
 - Benito D Isaac
 
----
-
-This README template provides an overview of the project, data description, modeling process, and instructions for running the code. Feel free to modify it according to your project's specifics and additional details.
