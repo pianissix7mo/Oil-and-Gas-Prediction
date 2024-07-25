@@ -1,6 +1,3 @@
-Here's a template for a README file for your project, based on the provided PDF and your request:
-
----
 
 # Oil and Gas Prediction Project
 
